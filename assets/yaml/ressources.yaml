@@ -1,0 +1,185 @@
+tutorials:
+  intro:
+    title:
+      en: 'Walkerophile'
+    content:
+      en: >
+          <h5>Welcome ! 👋 😄 </h5>
+          We thank you for your interest in testing the amazing walkerophile task, brought to you by Funky Encoders LLC.
+          <h5>General description</h5>
+          The goal of the task is to predict the direction a walker made of fiteen point is walking. <br>
+          Because directionality is a scarce ressource and north canadian have been killing baby seals for years, you only will
+          have to predict left or right.<br><br>
+      fr: >
+          <h5>Bienvenue ! 👋 😄 </h5>
+          Oui oui
+
+
+  disclaimer:
+    title: { en: '⚠️ IMPORTANT ⚠️ ' }
+    content:
+      en: >
+          You will be given a break for up to 15 minutes even 200 trials.
+          <br/><br/>
+          <b>However, certain actions will disqualify you from the task, and we will not be your friends anymore!</b> <br>Please respect those rules:
+          <ul>
+            <li>Do not take breaks outside the designated break period</li>
+            <li>Do not cheat or show obvious lack of engagement</li>
+          </ul>
+          <br>
+          [*] If you navigate away from the task page or miss to respond five times in a row, a <b>30 seconds</b> countdown will appear to warn you.
+          If the timer is up before you get back to the page, you will be blocked from completing the task!<br><br>
+          <b>If you accept these conditions, please proceed. ✌😉</b> If you do not, please stop talking to us.
+      fr: >
+          <B> bla bla bla veuillez procéder. ✌😉
+
+
+  trialInstruction:
+    title: { en: 'Trial Structure: Observation and Prediction' }
+    content:
+      en: >
+          <h5>Observe and predict when ready</h5>
+          A central cross will tell you to focus your attention at the center before the trial starts.
+          There will then be a short delay period when you do not need to do anything.
+          <br>
+          Then points will appear on the screen and will start moving. It is your job to predict the direction of motion of the dots,
+          either left or right, as fast as possible. The dots are computed from the image of a person walking left or right, but during the trial,
+          this natural motion will be pertubed in various ways, making the task rather difficult, even sometimes impossible. But it is important that you
+          respond even when you are not sure. 
+wolfFirstAppears:
+  title:
+    en: Four possible positions
+  message:
+    en: The wolf may appear at any of the four position on the screen.
+  passed: false
+wolfHasAppeared:
+  title:
+    en: Predict wolf's next position
+  message:
+    en: >
+        The wolf has appeared on the top left position. With the keyboard keys predict its next position.<br>
+        D for top left, C for bottom left, K for top right, and M for bottom right.
+  passed: false
+predictionTest:
+  title:
+    en: Prediction phase
+  message:
+    en: Predict the next position of the wolf.
+  passed: false
+  numberOfPrediction: 0
+realTimeTest:
+  title:
+    en: Now try with the real timing
+  message:
+    en: Congratulations ! Now that you got the gist of it, you will have to predict as fast as possible.
+  passed: false
+rabbitFirstAppear:
+  title:
+    en: Predict the next position of the Rabbit
+  message:
+    en: Use the keyboard to predict the next position of the rabbit.
+  passed: false
+rabbitFirstDisapear:
+  title:
+    en: Short observation
+  message:
+    en: >
+        The wolf and the rabbit only appear for a short time.<br>Wait until the square
+        changes before predicting!
+  passed: false
+wolfFmriFirstAppear:
+  title:
+    en: Two types of animals
+  message:
+    en: >
+        You will also see the wolf during this level.<br>Blocks between rabbit and
+        wolf trials will be separated by a short break.
+  passed: false
+blackoutFirstAppear:
+  title:
+    en: Trial without prediction
+  message:
+    en: >
+        On the last trial, there was no prediction phase the center square did not
+        change. You will get some trials of that form in the next level.
+  passed: false
+strings:
+  welcomeText: Welcome to the Walkerophile task!
+  changeCenterSquare:
+    en: |-
+      When you have to predict the center square,
+       it will change from a solid square to this dotted square
+  chooseNextPosition:
+    en: |-
+      Choose the next position of the wolf
+      D: Top Right -- K: Top left
+      C: Bottom Right -- M: Bottom Left
+  hitAKeyToContinue:
+    en: Hit a key to continue
+  youSelectedThisTile:
+    en: You selected this tile.
+  tooEarly:
+    en: You were too early! Hit the key only when the center squares changes to dashed borders.
+  aLittleSquareShowsYourChoice:
+    en: A little square shows your choice
+  endReasonIdle:
+    en: "You were idle for more than {t} sec during level {l}"
+    fr: "Vous êtes resté inactif pendant plus de {t} sec au niveau {l}"
+  taskStoppedTitle:
+    en: "⛔️ Task End ⛔️"
+  taskStoppedMessage:
+    en: "<h5>Ouch! \U0001F615 </h5> The task ended prematurely. It will not be possible
+      to try again."
+  taskStoppedReason:
+    en: "<br>The reason was: {t}."
+  prematureEndPauseAboveThreshold:
+    en: Idle time beyond maximum threshold (30sec)
+  pauseText:
+    en: The game is now paused! Hit any key to restart.
+  timeLimitText:
+    en: You have {n} seconds until you are disqualified from the task!
+  pauseRestart:
+    en: Game will start in {n} sec
+  finishedLevelTransition:
+    en: |-
+      Congratulations! You just finished level {l}
+      You have {n} seconds remaining for your break.
+      Hit a key when you want to start.
+  finishedBlockTransition:
+    en: |-
+      You finished level {b} !
+      You have {n} seconds remaining for your break.
+      Hit a key when you want to start.
+  lostConnectionTitle:
+    en: Lost connection!
+  lostConnectionContent:
+    en: You lost connection!<br>Close to reconnect. If you are disconnected for longer
+      than 15 minutes, you will be disqualified from the task.
+  loginError:
+    title: { en: 'Login Error' }
+    content:
+      en: >
+          There was an error during login. Please go through the MTURK interface.
+  taskFinishedTitle:
+    en: Finished!
+  taskFinishedContent:
+    en: "Yay! Well done, you are finished with the task! \U0001F389 <br><br>You can
+      now submit the task. <br><br>Thank you again for your kind participation! <br><br>
+      The Bavelier Lab team \U0001F49B "
+cross:
+  base: 0
+  predict: 1
+  topLeft: 2
+  topRight: 3
+  bottomRight: 4
+  bottomLeft: 5
+  topLeftLocked: 6
+  topRightLocked: 7
+  bottomRightLocked: 8
+  bottomLeftLocked: 9
+crossLockByPosition:
+- 6
+- 7
+- 8
+- 9
+thresholdIdle: 30000
