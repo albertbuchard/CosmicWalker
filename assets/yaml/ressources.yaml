@@ -5,11 +5,11 @@ tutorials:
     content:
       en: >
           <h5>Welcome ! 👋 😄 </h5>
-          We thank you for your interest in testing the amazing walkerophile task, brought to you by Funky Encoders LLC.
+          We thank you for your interest in testing the cosmic walker task, brought to you by Funky Encoders LLC.
+          <br><br>
           <h5>General description</h5>
-          The goal of the task is to predict the direction a walker made of fiteen point is walking. <br>
-          Because directionality is a scarce ressource and north canadian have been killing baby seals for years, you only will
-          have to predict left or right.<br><br>
+          The goal of the task is to predict the direction a walker made of five points is walking towards. If guessed correctly the walker will <b>explode</b>!<br>
+          Because directionality is a scarce ressource you will only have to predict left or right.<br><br>
       fr: >
           <h5>Bienvenue ! 👋 😄 </h5>
           Oui oui
@@ -19,7 +19,7 @@ tutorials:
     title: { en: '⚠️ IMPORTANT ⚠️ ' }
     content:
       en: >
-          You will be given a break for up to 15 minutes even 200 trials.
+          You will be given a break for up to 15 minutes each 200 trials.
           <br/><br/>
           <b>However, certain actions will disqualify you from the task, and we will not be your friends anymore!</b> <br>Please respect those rules:
           <ul>
@@ -27,9 +27,7 @@ tutorials:
             <li>Do not cheat or show obvious lack of engagement</li>
           </ul>
           <br>
-          [*] If you navigate away from the task page or miss to respond five times in a row, a <b>30 seconds</b> countdown will appear to warn you.
-          If the timer is up before you get back to the page, you will be blocked from completing the task!<br><br>
-          <b>If you accept these conditions, please proceed. ✌😉</b> If you do not, please stop talking to us.
+          <b>If you accept these conditions, please proceed. ✌😉</b>
       fr: >
           <B> bla bla bla veuillez procéder. ✌😉
 
@@ -39,13 +37,34 @@ tutorials:
     content:
       en: >
           <h5>Observe and predict when ready</h5>
-          A central cross will tell you to focus your attention at the center before the trial starts.
+          A small square will first appear to tell you to focus your attention at the center before a trial starts.
+          During this phase, a center dot will be surrounded by a full square:
+          <br>
+            <center><img src='./assets/sprites/cross/fullSquare.svg'></center>
+          <br><br>
           There will then be a short delay period when you do not need to do anything.
           <br>
           Then points will appear on the screen and will start moving. It is your job to predict the direction of motion of the dots,
           either left or right, as fast as possible. The dots are computed from the image of a person walking left or right, but during the trial,
           this natural motion will be pertubed in various ways, making the task rather difficult, even sometimes impossible. But it is important that you
-          respond even when you are not sure. 
+          respond even when you are not sure.<br>
+          When a prediction is correct, each of the dots will explode.
+  arrowKeyboard:
+    title: { en: 'Use the keyoard to predict' }
+    content:
+      en: >
+          Use the left and right arrow to predict the direction the walker is going, predict as fast as possible:
+          <br><center><img src="./assets/sprites/keyboard/arrows.png" width="30%" height="30%"></center>
+  progressInstruction:
+    title: { en: 'Task Progress' }
+    content:
+      en: >
+          As you progress, you will see a white line growing around the trial number at the bottom of the screen.
+          When the line form a full square the task will be finished:
+          <br><br>
+            <center><img width="20" height="20" src='./assets/sprites/cross/predictionSquareWithCenterLoader.gif'></center>
+          <br>
+          Viel Glück !
 wolfFirstAppears:
   title:
     en: Four possible positions
@@ -165,7 +184,7 @@ strings:
   taskFinishedContent:
     en: "Yay! Well done, you are finished with the task! \U0001F389 <br><br>You can
       now submit the task. <br><br>Thank you again for your kind participation! <br><br>
-      The Bavelier Lab team \U0001F49B "
+      The Encoders \U0001F49B "
 cross:
   base: 0
   predict: 1
