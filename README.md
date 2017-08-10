@@ -1,9 +1,6 @@
-# Catch the Wolf - Experiment JS
+# The Cosmic Walker
 
-## Public version
-The source code will be available soon. Only minified version accessible for now.
+## Authors
+Made with ❤️ by the Encoders
 
-## Author
-Made with ❤️ by Albert Buchard
-
-From the **Bavelier Lab** in Geneva
+CoSMo 2017
