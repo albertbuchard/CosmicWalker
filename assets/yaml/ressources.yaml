@@ -8,7 +8,7 @@ tutorials:
           We thank you for your interest in testing the cosmic walker task, brought to you by Funky Encoders LLC.
           <br><br>
           <h5>General description</h5>
-          The goal of the task is to predict the direction a walker made of five points is walking towards. If guessed correctly the walker will <b>explode</b>!<br>
+          The goal of the task is to predict the direction a walker made of five points is walking towards. <br>
           Because directionality is a scarce ressource you will only have to predict left or right.<br><br>
       fr: >
           <h5>Bienvenue ! 👋 😄 </h5>
@@ -48,7 +48,6 @@ tutorials:
           either left or right, as fast as possible. The dots are computed from the image of a person walking left or right, but during the trial,
           this natural motion will be pertubed in various ways, making the task rather difficult, even sometimes impossible. But it is important that you
           respond even when you are not sure.<br>
-          When a prediction is correct, each of the dots will explode.
   arrowKeyboard:
     title: { en: 'Use the keyoard to predict' }
     content:
@@ -182,8 +181,8 @@ strings:
   taskFinishedTitle:
     en: Finished!
   taskFinishedContent:
-    en: "Yay! Well done, you are finished with the task! \U0001F389 <br><br>You can
-      now submit the task. <br><br>Thank you again for your kind participation! <br><br>
+    en: "Yay! Well done, you are finished with the task! \U0001F389
+      <br><br>Thank you again for your kind participation! <br><br>
       The Encoders \U0001F49B "
 cross:
   base: 0
