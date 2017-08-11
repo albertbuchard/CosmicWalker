@@ -64,6 +64,12 @@ tutorials:
             <center><img width="20" height="20" src='./assets/sprites/cross/predictionSquareWithCenterLoader.gif'></center>
           <br>
           Viel Glück !
+  getHarder:
+    title: { en: 'Getting harder'}
+    content:
+      en: >
+          Now that you got the gist of it the next trials will now become harder.
+
 wolfFirstAppears:
   title:
     en: Four possible positions
